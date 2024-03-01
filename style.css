@@ -30,6 +30,8 @@ header ul li a {
     color: rgb(66, 66, 66);
 
     text-decoration: dashed;
+
+    margin-right: 15px;
 }
 
 header ul {
@@ -46,14 +48,37 @@ header,
 main,
 footer {
 
-    border: dotted #ffef00;
+    /*border: dotted #ffef00;
     margin-bottom: 25px;
     margin-top: 0px;
     margin-right: 100px;
-    margin-left: 100px;
+    margin-left: 100px;*/
+
+    margin: 0 auto; /*centraliza as caixas*/
+    width: 1120px;
 }
 
 footer {
 
     background: #e9abb5
+}
+
+/*estilização do layout.*/
+
+section {
+    box-sizing: border-box;
+    float: left;
+}
+
+.secao-conteudo {
+    width: 80%;
+}
+
+.secao-imagem {
+    width: 20%;
+}
+
+footer {
+    height: 50px;
+    float: left;
 }
